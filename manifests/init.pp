@@ -1,6 +1,6 @@
 class chefvm {
   exec { "install chefvm":
-    command => "git clone git://github.com/trobrock/chefvm.git ~/.chefvm",
+    command => "git clone git://github.com/trobrock/chefvm.git /Users/$id/.chefvm",
     creates => "/Users/$id/.chefvm"
   }
 
